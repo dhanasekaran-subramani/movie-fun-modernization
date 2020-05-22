@@ -1,7 +1,6 @@
 spring:
   application:
     name: movie-fun-app
-
   mvc.view:
     prefix: /WEB-INF/
     suffix: .jsp
@@ -16,6 +15,6 @@ s3:
   bucketName: <name of the bucket>
 
 albums:
-  url: //album-service/albums
+  url: http://album-service/albums
 movies:
-  url: //movie-service/movies
+  url: http://movie-service/movies
